@@ -1,0 +1,47 @@
+ body {
+     padding: 40px;
+     font-family: Arial;
+     background-image: url(img/background.png);
+ }
+
+ h1 {
+     text-align: center;
+     color: white;
+     text-transform:
+ }
+
+ .search-container {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ #search-bar {
+     width: 80%;
+     height: 40px;
+     font-size: 20px;
+     text-align: center;
+ }
+
+ .adventures-container {
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-around;
+     margin: 40px;
+ }
+
+ .adventure {
+     width: 120px;
+     height: 200px;
+     padding: 10px;
+     margin-top: 10px;
+     border-radius: 10px;
+     text-align: center;
+     background-color: white;
+     border-style: solid;
+     border-width: 3px;
+     border-color: slategrey;
+ }
+
+ .previewImage {
+     width: 100%;
+ }
